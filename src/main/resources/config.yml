@@ -1,0 +1,8 @@
+teleport:
+  delay: 5  # Czas teleportacji w sekundach
+
+messages:
+  start: "&#e3d512Trwa teleportacja... Poczekaj %time% sekund."
+  countdown: "&#f9f12aTrwa teleportacja... %time% sekund"
+  complete: "&#3ef12aTeleportacja zakończona!"
+  cancel: "&#ff0000Teleportacja anulowana! Poruszyłeś się!"

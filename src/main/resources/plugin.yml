@@ -1,0 +1,20 @@
+name: Spawn
+main: my.plugin.spawn.SpawnPlugin
+version: 1.0
+api-version: 1.21
+author: Mikusiek
+description: Plugin do teleportacji na spawn
+commands:
+  spawn:
+    description: Teleportuje na spawn
+    usage: /spawn
+  setspawn:
+    description: Ustawia lokalizację spawna
+    usage: /setspawn
+permissions:
+  spawn.setspawn:
+    description: Pozwala ustawić spawn komendą /setspawn
+    default: op
+  spawn.bypass:
+    description: Omija czas oczekiwania i bezruch podczas teleportacji
+    default: op
